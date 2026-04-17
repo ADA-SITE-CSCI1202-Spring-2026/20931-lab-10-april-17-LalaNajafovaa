@@ -22,9 +22,9 @@ public class Ex2Mapping {
 
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee("Alice", "Johnson", 72000));
-        employees.add(new Employee("Bob", "Smith", 55000));
-        employees.add(new Employee("Clara", "Davis", 98000));
+        employees.add(new Employee("Lala", "Lyaman", 72000));
+        employees.add(new Employee("Cohan", "Samir", 55000));
+        employees.add(new Employee("Faxri", "Ilham", 98000));
 
         Function<Employee, String> formatCard =
             e -> "Name: [" + e.getLastName() + ", " + e.getFirstName() + "] - Salary: $" + e.getSalary();
